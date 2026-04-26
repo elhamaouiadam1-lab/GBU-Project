@@ -48,7 +48,7 @@ export function HeroSection() {
           className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6"
         >
           What Drives{' '}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-violet-400">
+          <span className="text-indigo-300">
             GDP Growth?
           </span>
         </motion.h1>
