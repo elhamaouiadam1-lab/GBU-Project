@@ -73,7 +73,7 @@ export function Footer() {
           {/* Divider */}
           <div className="border-t border-slate-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
             <p>
-              Case Study 2 — Regression & Forecasting · 25% of total grade · Due Monday by 8 pm
+              GBU 3311 · By Adam Elhamaoui & Taha Hamdoun · Case Study 2 — Regression & Forecasting
             </p>
             <p>
               Built with Next.js · Tailwind CSS · Recharts · Framer Motion
