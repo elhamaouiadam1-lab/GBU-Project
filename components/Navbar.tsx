@@ -1,5 +1,6 @@
 'use client'
 import { useState, useEffect } from 'react'
+import { ScriptLogo } from './ScriptLogo'
 
 const links = [
   { label: 'Dataset',    href: '#dataset'    },
