@@ -10,10 +10,10 @@ const heroStats = [
 
 export function HeroSection() {
   return (
-    <section
-      id="hero"
-      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900"
-    >
+      <section
+  id="hero"
+  className="relative min-h-[100svh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 py-24 sm:py-28"
+  >
       {/* Decorative grid */}
       <div
         className="absolute inset-0 opacity-10"
