@@ -1,11 +1,12 @@
 'use client'
 import { FadeIn } from './ui/FadeIn'
+import { ScriptLogo } from './ScriptLogo'
 
 const tasks = [
-  { tag: 'Task 1',  label: 'Multiple Linear Regression',          pts: 25, ch: 'Ch. 14–15' },
+  { tag: 'Task 1',  label: 'Multiple Linear Regression',           pts: 25, ch: 'Ch. 14–15' },
   { tag: 'Task 2',  label: 'Linear & Logistic Regression (Python)', pts: 25, ch: 'Ch. 15'   },
-  { tag: 'Task 3',  label: 'Model Building & Variable Selection',  pts: 25, ch: 'Ch. 16'   },
-  { tag: 'Task 4',  label: 'Time Series Forecasting',             pts: 25, ch: 'Ch. 17'   },
+  { tag: 'Task 3',  label: 'Model Building & Variable Selection',   pts: 25, ch: 'Ch. 16'   },
+  { tag: 'Task 4',  label: 'Time Series Forecasting',              pts: 25, ch: 'Ch. 17'   },
 ]
 
 export function Footer() {
@@ -17,10 +18,8 @@ export function Footer() {
             {/* Project info */}
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <span className="w-8 h-8 rounded-lg bg-indigo-600 flex items-center justify-center">
-                  <span className="text-white text-sm font-bold">G</span>
-                </span>
-                <span className="text-white font-semibold">GBU · CST-2</span>
+                <ScriptLogo />
+                <span className="text-white font-semibold">What Drives GDP Growth?</span>
               </div>
               <p className="text-sm text-slate-400 leading-relaxed">
                 Econometrics Case Study 2 — Regression & Forecasting.<br />
@@ -54,12 +53,12 @@ export function Footer() {
               <h4 className="text-white font-semibold mb-4 text-sm">Key Results Summary</h4>
               <dl className="space-y-2 text-sm">
                 {[
-                  ['Full model R²',          '0.931 (Adj. 0.928)'],
-                  ['Final model Adj. R²',    '0.929 — 6 variables'],
-                  ['Logistic Pseudo-R²',     '0.856'],
-                  ['Dominant predictor',     'Unemployment (β = −1.70)'],
-                  ['Best forecaster',        'Exponential Smoothing'],
-                  ['Exp. Smoothing RMSE',    '1.54 vs MA: 2.31'],
+                  ['Full model R²',       '0.931 (Adj. 0.928)'],
+                  ['Final model Adj. R²', '0.929 — 6 variables'],
+                  ['Logistic Pseudo-R²',  '0.856'],
+                  ['Dominant predictor',  'Unemployment (β = −1.70)'],
+                  ['Best forecaster',     'Exponential Smoothing'],
+                  ['Exp. Smoothing RMSE', '1.54 vs MA: 2.31'],
                 ].map(([k, v]) => (
                   <div key={k} className="flex justify-between gap-4 border-b border-slate-800 pb-1.5">
                     <dt className="text-slate-500">{k}</dt>
