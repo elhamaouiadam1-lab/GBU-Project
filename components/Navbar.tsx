@@ -28,14 +28,12 @@ export function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
         {/* Brand */}
-        <a href="#hero" className="flex items-center gap-2">
-          <span className="w-7 h-7 rounded-lg bg-indigo-600 flex items-center justify-center">
-            <span className="text-white text-xs font-bold">G</span>
-          </span>
-          <span className={`font-semibold text-sm ${scrolled ? 'text-slate-900' : 'text-white'}`}>
-            GBU · CST-2
-          </span>
-        </a>
+        <a href="#hero" className="flex min-w-0 max-w-[calc(100vw-5.5rem)] items-center gap-2 md:max-w-none">
+  <ScriptLogo />
+  <span className={`truncate font-semibold text-sm ${scrolled ? 'text-slate-900' : 'text-white'}`}>
+    What Drives GDP Growth?
+  </span>
+</a>
 
         {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-1">
