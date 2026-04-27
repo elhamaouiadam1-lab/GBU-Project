@@ -42,15 +42,13 @@ export function HeroSection() {
 
         {/* Title */}
         <motion.h1
-          initial={{ opacity: 0, y: 24 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.1 }}
-          className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6"
+  initial={{ opacity: 0, y: 24 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.7, delay: 0.1 }}
+  className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-white leading-tight mb-6"
         >
-          What Drives{' '}
-          <span className="text-indigo-300">
-            GDP Growth?
-          </span>
+  GBU II Case Study 2 :{' '}
+  <span className="text-indigo-300">Adam El Hamaoui &amp; Taha Hamdoun</span>
         </motion.h1>
 
         {/* Subtitle */}
