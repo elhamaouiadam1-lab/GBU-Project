@@ -37,7 +37,7 @@ export function HeroSection() {
           className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-indigo-500/40 bg-indigo-500/10 text-indigo-300 text-xs font-semibold tracking-widest uppercase mb-8"
         >
           <span className="w-1.5 h-1.5 rounded-full bg-indigo-400 animate-pulse" />
-          Econometrics Case Study 2 · GBU
+          Supervised by Dr. Malek Sarhani · GBU
         </motion.div>
 
         {/* Title */}
