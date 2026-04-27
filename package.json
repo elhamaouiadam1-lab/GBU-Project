@@ -13,7 +13,8 @@
     "react": "^18",
     "react-dom": "^18",
     "framer-motion": "^11.3.0",
-    "recharts": "^2.12.7"
+    "recharts": "^2.12.7",
+    "@vercel/analytics": "^2.0.1"
   },
   "devDependencies": {
     "typescript": "^5",
